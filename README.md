@@ -10,7 +10,7 @@
 <br>
 
 ### 👋 Tool Introdution
-This tool is meant to be able to generate modular sitemap that are easily adjusted and modified to suit your own personal needs, I personally developed this project for my own sites in order to quickly generate content for dynamic sitemaps.
+This tool is meant to be able to generate modular sitemaps that are easily adjusted and modified to suit your own personal needs, I personally developed this project for my own sites in order to quickly generate all files nessecary for a lot of dynamic content.
 <br>
 <br>
 
