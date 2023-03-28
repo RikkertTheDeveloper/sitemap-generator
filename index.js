@@ -2,14 +2,12 @@
 const file_system = require("fs");
 const sitemap_indexes = JSON.parse(file_system.readFileSync("data/sitemaps/sitemap-indexes.json").toString("utf-8"))
 const sitemap_index_format = file_system.readFileSync("data/formats/sitemap-index-format.xml").toString("utf-8")
-
 const website_base_url = sitemap_indexes.settings.domain
 
 // # Read through all indexes:
 let appended_sitemap_indexes = "";
 
 file_system.rmSync("processed", {maxRetries: 2, recursive: true})
-
 file_system.mkdirSync("processed", {recursive: true})
 file_system.mkdirSync("processed/sitemaps", {recursive: true})
 
@@ -60,4 +58,5 @@ sitemap_indexes.sitemaps.forEach(element => {
     })
 });
 
+// # Write new sitemap indexes to file:
 file_system.writeFileSync("processed/sitemap-indexes.xml", sitemap_index_format.replace("###", appended_sitemap_indexes))
