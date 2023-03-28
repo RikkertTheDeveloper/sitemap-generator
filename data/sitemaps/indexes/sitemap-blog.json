@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "domain": "https://rickarendsen.nl/blog",
+
+        "news_name": "Rick Arendsen Blog",
+        "news_language": "nl"
+    },
+
+    "pages": [
+        {
+            "location": "/",
+            "last_modification": "2023-03-28",
+            "change_frequency": "daily",
+            "priority": 0.7
+        },
+
+        {
+            "location": "/mijn-deelname-aan-worldskills",
+            "last_modification": "2023-02-28",
+            "change_frequency": "yearly",
+            "priority": 0.5,
+
+            "publication_date": "2023-03-22",
+            "publication_name": "Mijn deelname aan WorldSkills"
+        },
+
+        {
+            "location": "/wat-is-flask-suite",
+            "last_modification": "2023-02-28",
+            "change_frequency": "yearly",
+            "priority": 0.5,
+
+            "publication_date": "2023-03-22",
+            "publication_name": "Wat is Flask Suite?"
+        }
+    ]
+}

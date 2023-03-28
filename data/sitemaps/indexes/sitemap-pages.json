@@ -1,0 +1,14 @@
+{
+    "settings": {
+        "domain": "https://rickarendsen.nl"
+    },
+
+    "pages": [
+        {
+            "location": "/",
+            "last_modification": "2023-03-28",
+            "change_frequency": "daily",
+            "priority": 0.8
+        }
+    ]
+}

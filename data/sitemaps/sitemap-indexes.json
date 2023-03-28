@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "domain": "https://rickarendsen.nl"
+    },
+
+    "sitemaps": [
+        {
+            "name": "sitemap-blog",
+            "index": "sitemap-blog",
+            "type": "news"
+        },
+
+        {
+            "name": "sitemap-pages",
+            "index": "sitemap-pages",
+            "type": "standard"
+        }
+    ]
+}

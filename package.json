@@ -1,0 +1,22 @@
+{
+  "name": "sitemap-generator",
+  "version": "1.0.0",
+  "description": "Generates sitemap out of JSON input file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikkertthedeveloper/sitemap-generator.git"
+  },
+  "keywords": [
+    "sitemap"
+  ],
+  "author": "Rick Arendsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikkertthedeveloper/sitemap-generator/issues"
+  },
+  "homepage": "https://github.com/rikkertthedeveloper/sitemap-generator#readme"
+}
