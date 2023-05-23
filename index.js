@@ -7,7 +7,7 @@ const website_base_url = sitemap_indexes.settings.domain
 // # Read through all indexes:
 let appended_sitemap_indexes = "";
 
-file_system.rmSync("processed", {maxRetries: 2, recursive: true})
+file_system.rmSync("processed", {maxRetries: 2, recursive: true, force: true})
 file_system.mkdirSync("processed", {recursive: true})
 file_system.mkdirSync("processed/sitemaps", {recursive: true})
 
